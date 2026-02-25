@@ -15,17 +15,62 @@ label{
     margin-top: 10px;
     
 }
+.titulo{
+    text-align: center;
+    margin-left: 40px;
+}
 
 label.genero,.area{
     display: inline-block;
-    margin-top: 20px;
-
+    margin-top: 5px;
+    margin-right: 40px;
 }
-/* input[type="radio"] + label,
-input[type="checkbox"] + label {
-    display: inline-block;
+.nascimento{
     margin-top: 20px;
-} */
+}
+
+.genero1{
+    margin-top: 20px;
+}
+.estado{
+    display: block;
+    margin-top: 20px;
+}
+.mensagem{
+    margin-top: 20px;
+}   
+.botao{
+    margin-top: 20px;
+    display:block;
+    background-color: rgb(113, 122, 245);
+    color:aliceblue
+}
+#nome,#email,#senha,#confirmarSenha{
+    border:2px solid rgb(0, 0, 0);
+}
+
+.cadastro{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+}
+
+.subtitulo{
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.linha{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+}
+.nascimento{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+}
 
 
 
