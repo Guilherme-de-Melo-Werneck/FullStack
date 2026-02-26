@@ -14,9 +14,10 @@ h1 {
 label{
     display: block;
     margin-bottom: 20px;
+    
 }
 
-input[type=text], textarea, select {
+input[type=text], input[type=number], input[type=email], textarea, select {
     padding: 10px;
     width: 500px;
     font-size: 15px;
@@ -48,6 +49,16 @@ button{
 button:hover{
     background-color: #ddd;
 }
+legend{
+    font-size:15px;
+    font-weight: bold;
+}
+fieldset{
+    border:1px solid #000000;
+    border-radius: 10px;
+    background-color: #eee;
+}
+
 
 
 
