@@ -10,70 +10,38 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="titulo">Página de teste</h1>
 
-    <div class="cadastro">
-        <div class="topo">Dados do cadastro</div>
+    <h1>Página de teste</h1>
 
-        <form action="paginas/login.html" method="get">
+    <h2>Área de cadastro</h2>
 
-            <div class="linha"> Informações pessoais
-                <label for="nome">Nome completo</label>
-                <input type = "text" name="nome" id="nome" placeholder="Digite seu nome" />
+    <form action="paginas/login.html" method="GET">
 
-                <label for = "email">Digite seu email</label>
-                <input type = "email" name = "email" id="email" placeholder="Digite seu email"/>
+        <label>
+            Nome Completo:<br/>
+            <input type="text" name="nome" />
+        </label>
 
-                <label for = "senha">Digite sua senha</label>
-                <input type = "password" name = "senha" id="senha" placeholder="Digite sua senha" />
+        <label>
+            Descrição:<br/>
+            <textarea name="descricao"></textarea>
+        </label>
 
+        <label>
+            Categoria:<br/>
+            <select name="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="2">Categoria 2</option>
+                <option value="3">Categoria 3</option>
+            </select>
+        </label>
 
-                <label for = "confirmarSenha">Confirme sua senha</label>
-                <input type = "password" name = "confirmarSenha" id="confirmarSenha" placeholder="Confirme sua senha"/>
-                </div>
-                    <div class="linha"> Informações adicionais
-                        <label for = "genero" class="genero1">Gênero</label>
+        <label>
+            <input type="checkbox" />
+            Eu declaro que li e aceito os <a href="paginas/termos.html" target="_blank" class = "termoslink">termos de uso</a>.
+        </label>
 
-                        <input type="radio" name="genero" id="masculino" value="masculino" />
-                        <label for="masculino"class="genero">Masculino</label>
-                        
-                        <input type="radio" name="genero"  id="feminino" value="feminino">
-                        <label for="feminino"class="genero">Feminino</label>
-                        
-                        <input type="radio" name="genero"  id="outro" value="outro">
-                        <label for="outro"class="genero">Outro</label>
-                    </div>
-            
-                <label for ="date" class="nascimento"> data de nascimento </label>
-                <input type="date" name="nascimento" id = "date" value = "nascimento"/> 
-
-                <div class="linha"> 
-                    <label for = "area"class="area1">Área de atuação</label>
-                    
-                    <input type = "checkbox" name ="area" id="tecnologia" value="tecnologia"/>
-                    <label for="tecnologia" class = "area">Tecnologia</label>
-                    
-                    
-                    <input type = "checkbox" name ="area" id="saude" value="saude"/>
-                    <label for="saude" class = "area">Saúde</label>
-                    
-                    
-                    <input type = "checkbox" name ="area" id="educacao" value="educacao"/>
-                    <label for="educacao" class = "area">Educação</label>
-                
-                <select name="estado" size = "2" class="estado" >
-                    <option value="RJ">RJ</option>
-                    <option value="SP">SP</option>
-                    <option value="MG">MG</option>
-
-                </select>
-
-                <label for="mensagem" class = "mensagem">Deixe uma mensagem</label>
-                <textarea name="mensagem" id = "mensagem" placeholder="Digite uma mensagem"></textarea>
-
-                
-                <button type="submit" class="botao">Cadastrar</button>
-        </div>
+        <button>Fazer Cadastro</button>
 
     </form>
 
